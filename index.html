@@ -12,9 +12,9 @@
             </figure>
             <nav>
                 <ol>
-                    <li><a href="#">Portafolio</a></li>
-                    <li><a href="#">Experiencia</a></li>
-                    <li><a href="#">Trabajemos juntos</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#eventos">Experiencia</a></li>
+                    <li><a href="#contacto">Trabajemos juntos</a></li>
                 </ol>
             </nav>
         </header>
@@ -24,7 +24,7 @@
             </h1>
             <img src="images/hero.jpg" width="500" height="300" alt="imagen principal del sitio">
         </section>
-        <section>
+        <section id="portafolio">
             <h2>Portafolio (Proyectos destacados)</h2>
             <article>
                 <h3>PLatzi Video</h3>
@@ -39,7 +39,7 @@
                 <img src="images/platzi-video-react-native.png" width="500" alt="proyecto del curso de react native">
             </article>
         </section>
-        <section>
+        <section id="eventos">
             <h2>Más sobre mi experiencia</h2>
             <article>   
                 <figure>
@@ -49,12 +49,13 @@
                 <p>El evento más grande sobre gente que quiere aprender más de internet. 
                     En este evento te comparto cómo tener una vida de constante aprendizaje.
                 </p>
-                <a>Ver plática</a>
+                <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver plática</a>
             </article>
         </section>
-        <section>
+        <section id="contacto">
             <form action="/suscripcion/">
-                <input type="email" placeholder="Déjame tu email" >
+                <label for="">Déjame tu email</label>
+                <input type="email" placeholder="Déjame tu email" id="email">
                 <input type="submit" value="texto del botón">
                 <button>Enviar</button>
             </form>
